@@ -1,0 +1,78 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex{
+
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items:center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.invert{
+    filter: invert(1);
+}
+.invert1{
+    filter: invert(1) ;
+}
+.bg-grey{
+    background-color: #121212;
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.m-1{
+    margin: 5px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+/* For WebKit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #2e2e2e; /* Background color of the track */
+    border-radius: 8px; /* Rounded corners of the scrollbar track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #555; /* Color of the draggable part of the scrollbar */
+    border-radius: 8px; /* Rounded corners of the draggable part */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #777; /* Color of the draggable part when hovered */
+  }
+  
+  /* For Firefox */
+  scrollbar-width : thin; /* Width of the scrollbar */
+  scrollbar-color: #555 #2e2e2e; /* Thumb color and track color */
+  
+  /* For Internet Explorer and Edge (legacy) */
+  body {
+    -ms-overflow-style: scrollbar; /* Shows scrollbars */
+  }
+  
+  /* Optional: Adding styles for scrollbar in a specific element */
+  .element-class {
+    overflow-y: scroll; /* Enables vertical scrolling */
+  }
+  
